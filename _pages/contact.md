@@ -9,10 +9,9 @@ author_profile: true
 
 Feel free to reach out for collaboration, discussions, or opportunities!
 
-- **📧 Email**: [johndoe@example.com](mailto:brender.a8202@gmail.com)
-- **🔗 LinkedIn**: [linkedin.com/in/johndoe](https://linkedin.com/in/brender-akinyi)
-- **💻 GitHub**: [github.com/yourusername](https://github.com/ABree24)
-- **📱 Phone**: +254 005 000000
+- **📧 Email**: [brender.a8202@gmail.com].
+- **🔗 LinkedIn**: [https://linkedin.com/in/brender-akinyi]
+- **💻 GitHub**: [https://github.com/ABree24]
 
 ---
 

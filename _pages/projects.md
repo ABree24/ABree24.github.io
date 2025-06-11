@@ -3,7 +3,7 @@
 ---
 
 ### Minasefate Website
-<img src="/assets/images/todolst.jpeg" alt="Screenshot of Project 2" style="max-width: 100%; height: auto; border-radius: 12px;" />
+<img src="/assets/images/Logo.png" alt="Screenshot of Project 2" style="max-width: 100%; height: auto; border-radius: 12px;" />
 A professional, fully responsive website designed and developed for Minasefate.org, a nonprofit organization dedicated to clean water access, environmental conservation, and carbon credit management. The site includes dynamic content sections, donation capabilities and an engaging layout that communicates the organization's mission and impact to the public.
 🌐 (https://minasefate.org/).
 

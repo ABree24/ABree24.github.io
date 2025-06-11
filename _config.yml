@@ -60,6 +60,8 @@ plugins:
 author:
   name   : "Brender Akinyi"
   avatar : "/assets/images/Brender_photo.jpg"
+  avatar_shape: "circle"  # or square
+
   bio    : " Brender is an IT professional who builds robust systems and passionately secures them against evolving cyber threats."
   links:
     - label: "Website"

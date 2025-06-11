@@ -9,7 +9,7 @@ Brief description of the project.
 ---
 
 ### Todo List Personal Project
-<img src="/assets/images/project2.png" alt="Screenshot of Project 2" style="max-width: 100%; height: auto; border-radius: 12px;" />
+<img src="/assets/images/todolst.jpeg" alt="Screenshot of Project 2" style="max-width: 100%; height: auto; border-radius: 12px;" />
 Short overview of your contribution and tools used.  
 🔗 (https://github.com/ABree24/todo_list)
 

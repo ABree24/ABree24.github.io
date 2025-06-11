@@ -9,6 +9,24 @@ author_profile: true
 layout: home
 title: "Home"
 ---
+# ![Your Photo](assets/images/profile.jpg)  
+# **Brender Akinyi**  
+## _"Web Developer | Aspiring Security Analyst | Lifelong Learner"_
+
+---
+
+Welcome to my personal portfolio! I'm passionate about cybersecurity, penetration testing, and problem-solving through ethical hacking. This site showcases my journey, projects, and the hands-on lab challenges I've conquered.
+
+---
+
+## 🔗 **Navigation**
+- [🏠 Home](index.md)
+- [📄 Resume](resume.md)
+- [💻 Projects](projects.md)
+- [🛡️ Lab Challenges](lab_challenges.md)
+- [📬 Contact](contact.md)
+
+---
 
 
 ## 📄 CV

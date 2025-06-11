@@ -1,7 +1,5 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 layout: home
 author_profile: true
 ---
@@ -9,7 +7,7 @@ author_profile: true
 layout: home
 title: "Home"
 ---
-# ![Your Photo](assets/images/profile.jpg)  
+
 # **Brender Akinyi**  
 ## _"Web Developer | Aspiring Security Analyst | Lifelong Learner"_
 
@@ -19,13 +17,11 @@ Welcome to my personal portfolio! I'm passionate about cybersecurity, penetratio
 
 ---
 
-## 🔗 **Navigation**
-- [🏠 Home](index.md)
-- [📄 Resume](resume.md)
-- [💻 Projects](projects.md)
-- [🛡️ Lab Challenges](lab_challenges.md)
-- [📬 Contact](contact.md)
 
+- [Resume](../resume/)
+- [Projects](../projects/)
+- [Lab Challenges](../lab_challenges/)
+- [Contact](../contact/)
 ---
 
 

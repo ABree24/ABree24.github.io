@@ -38,7 +38,7 @@ author_profile: true
 - **Tools Used**: Kerbrute, Hashcat on chrome.
 - **Link**: Link:https://tryhackme.com/r/room/owasptop102021.
 - **Screenshot**:  
-  ![XSS Demo](/assets/images/kebrute.webp)
+  ![XSS Demo](/assets/images/kerbrute.webp)
 - **Lessons Learned**:
   - Enumerate a domain’s users using Kerbrute
   - Crack hashes using hashcat

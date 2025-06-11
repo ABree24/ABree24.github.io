@@ -1,6 +1,6 @@
 ---
-
-layout: home
+permalink: /
+layout: single
 author_profile: true
 ---
 
@@ -18,6 +18,7 @@ Explore:
 - [Projects](../projects/)
 - [Lab Challenges](../lab_challenges/)
 - [Contact](../contact/)
+  
 ---
 
 

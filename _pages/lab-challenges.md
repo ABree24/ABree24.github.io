@@ -13,7 +13,7 @@ author_profile: true
 - **Tools Used**: Crackstation, Cowsay Online, Exploit-DB.
 - **Link**: 
 - **Screenshot**:  
-  ![DVWA Screenshot](assets/images/owasp.webp)
+  ![DVWA Screenshot](/assets/images/owasp.webp)
 - **Lessons Learned**:
   - OWASP Top 10 teaches us that common web application vulnerabilities are serious and require proactive security measures
   - Highlights the importance of secure coding practices, addressing vulnerabilities throughout the software development lifecycle and implementing robust security controls.
@@ -25,7 +25,7 @@ author_profile: true
 - **Approach**: Used JTR with custom wordlists.
 - **Tools Used**: John the Ripper, Kali Linux.
 - **Screenshot**:  
-  ![JTR Output](assets/images/JTR.jpeg)
+  ![JTR Output](/assets/images/JTR.jpeg)
 - **Lessons Learned**:
   - Effectiveness of common passwords
   - Role of salting in password security
@@ -38,7 +38,7 @@ author_profile: true
 - **Tools Used**: Kerbrute, Hashcat on chrome.
 - **Link**: Link:https://tryhackme.com/r/room/owasptop102021.
 - **Screenshot**:  
-  ![XSS Demo](assets/images/kebrute.webp)
+  ![XSS Demo](/assets/images/kebrute.webp)
 - **Lessons Learned**:
   - Enumerate a domain’s users using Kerbrute
   - Crack hashes using hashcat

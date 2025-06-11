@@ -35,7 +35,7 @@ author_profile: true
 ## 🧩 **Challenge 3: Attactive Directory on TRYHACKME**
 - **Problem**: Exploit a vulnerable Domain Controller.
 - **Approach**: Using Kerbrute.
-- **Tools Used**: Kerbrute, Hashcat on chrome.
+- **Tools Used**: Kerbrute, Nmap, Hashcat on chrome.
 - **Link**: Link:https://tryhackme.com/r/room/owasptop102021.
 - **Screenshot**:  
   ![XSS Demo](/assets/images/kerbrute.webp)

@@ -23,18 +23,18 @@ I'm passionate about cybersecurity, web development and problem-solving through 
 
 ---
 
-Explore:
-- [Resume](../resume/)
-- [Projects](../projects/)
-- [Lab Challenges](../lab_challenges/)
-- [Contact](../contact/)
-  
+## Skills Snapshot
+
+🛡️ Cybersecurity Tools: Wireshark, Burp Suite, Nmap  
+💻 Web Development: HTML, CSS, JavaScript, Jekyll  
+🧩 Problem Solving: Capture The Flag (CTFs), Ethical Hacking Labs
+
 ---
 
 
+> "Security is not a product, but a process." – Bruce Schneier
 
-
-
+---
 
 
 Built with ❤️ using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).

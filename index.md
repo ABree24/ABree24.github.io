@@ -11,7 +11,9 @@ header:
 
 # Welcome!
 
-Hi, I'm Brender Akinyi — Web Developer | Aspiring Security Analyst | Lifelong Learner.
+Hi, I'm Brender Akinyi 
+
+Web Developer | Aspiring Security Analyst | Lifelong Learner.
 
 Explore my projects, resume, lab challenges and get in touch!
 

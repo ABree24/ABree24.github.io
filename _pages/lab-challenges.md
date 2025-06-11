@@ -1,3 +1,9 @@
+---
+title: "Lab Challenges"
+permalink: /lab-challenges/
+layout: single
+author_profile: true
+---
 # 🛡️ **Lab Challenges**
 
 ---

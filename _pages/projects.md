@@ -22,5 +22,4 @@ A classic Tic Tac Toe game developed with JavaScript, featuring interactive game
 🔗 (https://github.com/ABree24/Tic-Tac-Toe)
 
 ---
-- **Link**: [GitHub Repo](https://github.com/yourusername/linux-hardening-script)
-- **Key Features**: Auto-backups, Logging, Error Handling
+

@@ -66,28 +66,23 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://abree24.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/ABree24"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://ke.linkedin.com/"
+      url: "https://ke.linkedin.com/brender-akinyi"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ABree24"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://ke.linkedin.com/brender-akinyi"
 
 defaults:
   # _posts

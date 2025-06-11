@@ -16,4 +16,4 @@ Feel free to reach out for collaboration, discussions, or opportunities!
 
 ---
 
-![Contact Icon](assets/images/contact.png)
+![Contact Icon](assets/images/Contact_Us_Sub_Hero.jpg)

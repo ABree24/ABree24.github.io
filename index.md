@@ -25,9 +25,7 @@ Explore:
 ---
 
 
-## 📄 CV
 
-📄 [Download my CV](assets/cv.pdf)  
 
 
 

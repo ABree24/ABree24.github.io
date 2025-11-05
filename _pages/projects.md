@@ -58,7 +58,7 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 
 ---
 
-### **Phase 2 - Attack Simulation
+### **Phase 2 - Attack Simulation**
 
 1. Failed Logins: Generated multiple failed logins using a PowerShell loop to simulate a brute-force attacker testing passwords:
 
@@ -75,39 +75,39 @@ locked the account and signed back-in.
 
 3. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
 
+    ![Attack Simulation](/path/to/your/screenshot.png "Attack Simulation")
 ---
 
-### **Phase 3 Detection Logic (KQL)
+### **Phase 3 Detection Logic (KQL)**
 
 Developed a robust KQL query to find a successful login within 15 minutes after three or more failed attempts from the same account:
 
 let lookback = 6h;
 let threshold = 3;
 let window = 15m;
-
+// 1. Find all failed login attempts
 let Failed =
 SecurityEvent
 | where TimeGenerated >= ago(lookback)
 | where EventID == 4625
 | extend User = coalesce(tostring(Account), tostring(TargetUserName))
 | summarize FailedCount = count(), LastFailed = max(TimeGenerated) by User;
-
+// 2. Find all successful login attempts
 let Success =
 SecurityEvent
 | where TimeGenerated >= ago(lookback)
 | where EventID == 4624
 | extend User = coalesce(tostring(Account), tostring(TargetUserName)), SuccessTime = TimeGenerated;
-
+// 3. Join on User and apply timing logic
 Failed
 | join kind=inner (Success) on User
 | where SuccessTime between (LastFailed .. LastFailed + window)
 | where FailedCount >= threshold
 | project User, FailedCount, LastFailed, SuccessTime
-| order by SuccessTime desc
 
 ---
 
-### **Phase 4 Validation & Automation
+### **Phase 4 Validation & Automation**
 
 1. Ran query → 20 detections confirmed.
 

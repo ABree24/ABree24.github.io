@@ -13,21 +13,21 @@ header:
 
 Hi, I'm Brender Akinyi 
 
-Web Developer | Aspiring Security Analyst | Lifelong Learner.
+| Detection Engineer & SIEM Analyst | SOC Operations | Security Automation |
 
-Explore my projects, resume, lab challenges and get in touch!
+I specialize in building, securing, and continuously monitoring modern cloud environments. My focus is on developing robust detection logic that catches real-world threats before they can cause damage.
+
+Explore my projects, resume, and the hands-on lab challenges where I apply these skills daily.
 
 ---
 
-I'm passionate about cybersecurity, web development and problem-solving through ethical hacking. This site showcases my journey, projects and the hands-on lab challenges I've conquered.
+I’m passionate about cybersecurity, detection engineering and problem-solving through ethical hacking. This site showcases my journey, projects, and the hands-on lab challenges I’ve conquered using enterprise-grade tools.
 
 ---
 
 ## Skills Snapshot
 
-🛡️ Cybersecurity Tools: Wireshark, Burp Suite, Nmap  
-💻 Web Development: HTML, CSS, JavaScript, Jekyll  
-🧩 Problem Solving: Capture The Flag (CTFs), Ethical Hacking Labs
+
 
 ---
 

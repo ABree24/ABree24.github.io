@@ -61,10 +61,13 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 ### **Phase 2 - Attack Simulation**
 
 1. Failed Logins: Generated multiple failed logins using a PowerShell loop to simulate a brute-force attacker testing passwords:
-    ```powerpoint
-for ($i=0; $i -lt 10; $i++) {
-  net use \\127.0.0.1\C$ /user:fakeuser wrongpass 
+   
+```powershell
+for ($i=0; $i -lt 8; $i++) {
+net use \127.0.0.1\C$ /user:nonexistent wrongpass 2>$null
+Start-Sleep -Seconds 1
 }
+```
 
 
 3. Successful Login: Followed up the failed attempts with a successful login to trigger the detection pattern:
@@ -74,38 +77,44 @@ locked the account and signed back-in.
 
 3. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
 
-    ![Attack Simulation](assets/images/Screenshot 8.png "Attack Simulation")
+    ![Attack Simulation](./assets/images/Screenshot_8.png "Attack Simulation")
+
 ---
 
 ### **Phase 3 - Detection Logic (KQL)**
 
 Developed a robust KQL query to find a successful login within 15 minutes after three or more failed attempts from the same account:
- ```kql
+ ```kql 
 
-let lookback = 6h;
-let threshold = 3;
-let window = 15m;
-// 1. Find all failed login attempts
+// Detect successful logon after multiple failed attempts
+let lookback = 6h;          // how far back to search logs
+let threshold = 3;          // minimum failed attempts to consider
+let window = 15m;           // follow-window after last failure for a suspicious success
+
+// Aggregate failed attempts (EventID 4625)
 let Failed =
-SecurityEvent
-| where TimeGenerated >= ago(lookback)
-| where EventID == 4625
-| extend User = coalesce(tostring(Account), tostring(TargetUserName))
-| summarize FailedCount = count(), LastFailed = max(TimeGenerated) by User;
-// 2. Find all successful login attempts
+  SecurityEvent
+  | where TimeGenerated >= ago(lookback)
+  | where EventID == 4625
+  | extend User = coalesce(tostring(Account), tostring(TargetUserName))
+  | summarize FailedCount = count(), LastFailed = max(TimeGenerated) by User;
+
+// Successful logons (EventID 4624)
 let Success =
-SecurityEvent
-| where TimeGenerated >= ago(lookback)
-| where EventID == 4624
-| extend User = coalesce(tostring(Account), tostring(TargetUserName)), SuccessTime = TimeGenerated;
-// 3. Join on User and apply timing logic
+  SecurityEvent
+  | where TimeGenerated >= ago(lookback)
+  | where EventID == 4624
+  | extend User = coalesce(tostring(Account), tostring(TargetUserName)), SuccessTime = TimeGenerated
+  | project User, SuccessTime, Computer, IpAddress = iff(column_ifexists("IpAddress","")!="", tostring(IpAddress), "Unknown");
+
+// Join and surface suspicious sequences
 Failed
 | join kind=inner (Success) on User
 | where SuccessTime between (LastFailed .. LastFailed + window)
 | where FailedCount >= threshold
-| project User, FailedCount, LastFailed, SuccessTime
-
-
+| project Account = User, FailedCount, LastFailed, SuccessTime, Computer, IpAddress
+| order by SuccessTime desc
+```
 
 ---
 

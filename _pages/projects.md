@@ -63,8 +63,8 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 1. Failed Logins: Generated multiple failed logins using a PowerShell loop to simulate a brute-force attacker testing passwords:
    
 ```powershell
-for ($i=0; $i -lt 8; $i++) {
-net use \127.0.0.1\C$ /user:nonexistent wrongpass 2>$null
+for ($i=0; $i -lt 10; $i++) {
+net use \127.0.0.1\C$ /user:fakeuser wrongpass 2>$null
 Start-Sleep -Seconds 1
 }
 ```
@@ -75,9 +75,10 @@ Start-Sleep -Seconds 1
 locked the account and signed back-in.
 
 
-3. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
+4. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
 
-    ![Attack Simulation](./assets/images/Screenshot_8.png "Attack Simulation")
+
+![Attack_Simulation](./assets/images/Attack_Simulation.png)
 
 ---
 

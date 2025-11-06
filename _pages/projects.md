@@ -62,9 +62,8 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 
 1. Failed Logins: Generated multiple failed logins using a PowerShell loop to simulate a brute-force attacker testing passwords:
     ```powerpoint
-for ($i=0; $i -lt 8; $i++) {
-  net use \\127.0.0.1\C$ /user:fakeuser wrongpass 2>null
-  Start-Sleep -Seconds 1
+for ($i=0; $i -lt 10; $i++) {
+  net use \\127.0.0.1\C$ /user:fakeuser wrongpass 
 }
 
 
@@ -78,10 +77,11 @@ locked the account and signed back-in.
     ![Attack Simulation](assets/images/Screenshot 8.png "Attack Simulation")
 ---
 
-### **Phase 3 Detection Logic (KQL)**
+### **Phase 3 - Detection Logic (KQL)**
 
 Developed a robust KQL query to find a successful login within 15 minutes after three or more failed attempts from the same account:
  ```kql
+
 let lookback = 6h;
 let threshold = 3;
 let window = 15m;
@@ -105,9 +105,11 @@ Failed
 | where FailedCount >= threshold
 | project User, FailedCount, LastFailed, SuccessTime
 
+
+
 ---
 
-### **Phase 4 Validation & Automation**
+### **Phase 4 - Validation & Automation**
 
 1. Ran query → 20 detections confirmed.
 

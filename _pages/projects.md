@@ -61,21 +61,21 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 ### **Phase 2 - Attack Simulation**
 
 1. Failed Logins: Generated multiple failed logins using a PowerShell loop to simulate a brute-force attacker testing passwords:
-
+    ```
 for ($i=0; $i -lt 8; $i++) {
   net use \\127.0.0.1\C$ /user:nonexistent wrongpass 2>null
   Start-Sleep -Seconds 1
 }
 
 
-2. Successful Login: Followed up the failed attempts with a successful login to trigger the detection pattern:
+3. Successful Login: Followed up the failed attempts with a successful login to trigger the detection pattern:
 
 locked the account and signed back-in.
 
 
 3. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
 
-    ![Attack Simulation](/path/to/your/screenshot.png "Attack Simulation")
+    ![Attack Simulation](assets/images/screenshot 7.png "Attack Simulation")
 ---
 
 ### **Phase 3 Detection Logic (KQL)**

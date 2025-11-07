@@ -36,16 +36,12 @@ header:
 </style>
 
 <p align="center">
-  Cybersecurity enthusiast focused on <strong>SIEM, threat detection, and digital forensics</strong>.  
-  Exploring how logs tell stories — from compromise to containment.
+  I specialize in <strong>building, securing, and continuously monitoring cloud and hybrid environments</strong>.  
+  Exploring how logs tell stories from compromise to containment.
 </p>
 
 
-
 ---
-
-I specialize in **building, securing, and continuously monitoring cloud and hybrid environments**.  
-My focus is on **developing detection logic and automations** that identify and stop real-world threats before they cause damage.
 
 💻 This portfolio highlights my **projects, hands-on labs, and continuous learning journey** in cybersecurity and detection engineering.
 

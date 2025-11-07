@@ -11,30 +11,68 @@ header:
 
 # Welcome!
 
-Hi, I'm Brender Akinyi 
+# 👋 Hi, I’m **Brender Akinyi**
 
-| Detection Engineer & SIEM Analyst | SOC Operations | Security Automation |
+🎯 **Detection Engineer & SIEM Analyst**  
 
-I specialize in building, securing, and continuously monitoring modern cloud environments. My focus is on developing robust detection logic that catches real-world threats before they can cause damage.
-
-Explore my projects, resume, and the hands-on lab challenges where I apply these skills daily.
+🛡️ **SOC Operations | Security Automation | Threat Detection**
 
 ---
 
-I’m passionate about cybersecurity, detection engineering and problem-solving through ethical hacking. This site showcases my journey, projects, and the hands-on lab challenges I’ve conquered using enterprise-grade tools.
+I specialize in **building, securing, and continuously monitoring cloud and hybrid environments**.  
+My focus is on **developing detection logic and automations** that identify and stop real-world threats before they cause damage.
+
+💻 This portfolio highlights my **projects, hands-on labs, and continuous learning journey** in cybersecurity and detection engineering.
 
 ---
 
-## Skills Snapshot
+## 🚀 Featured Projects
 
+| 💼 Project | 🧩 Description | ⚙️ Tools |
+|-------------|----------------|-----------|
+| **🔍 SOC Home Lab** | Simulated a Security Operations Center using Azure Sentinel to detect and respond to attacks in a virtual network. | `Azure Sentinel`, `KQL`, `PowerShell` |
+| **🐍 Phishing Email Analysis Automation** | Automated malicious email analysis using Python and VirusTotal API to extract indicators of compromise. | `Python`, `VirusTotal API`, `Regex` |
+| **🧱 Web App Vulnerability Assessment** | Performed OWASP Top 10 web assessments and generated professional vulnerability reports. | `Burp Suite`, `OWASP ZAP`, `HTML` |
+| **📈 Log Analytics Dashboard** | Designed dashboards that visualize network anomalies and trigger alerts via KQL queries. | `Azure Monitor`, `Sentinel`, `KQL` |
 
+👉 **[🔗 View All Projects](https://github.com/abree24?tab=repositories)**
 
 ---
 
+## 🧠 Skills Snapshot
 
-> "Security is not a product, but a process." – Bruce Schneier
+| 🛠️ Category | 🚀 Tools & Competencies |
+|--------------|--------------------------|
+| **Detection & SIEM** | ![Azure Sentinel](https://img.shields.io/badge/-Azure_Sentinel-0078D7?logo=microsoftazure&logoColor=white) ![KQL](https://img.shields.io/badge/-KQL-0078D7?logo=azuredevops&logoColor=white) ![Azure Security Center](https://img.shields.io/badge/-Azure_Security_Center-0078D7?logo=microsoftazure&logoColor=white) |
+| **Network & Analysis** | ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/-Nmap-005571?logo=gnometerminal&logoColor=white) ![TCP/IP](https://img.shields.io/badge/-TCP/IP-333333?logo=linux&logoColor=white) |
+| **Vulnerability Analysis** | ![Burp Suite](https://img.shields.io/badge/-Burp_Suite-FF6633?logo=burpsuite&logoColor=white) ![OWASP](https://img.shields.io/badge/-OWASP_Top_10-000000?logo=owasp&logoColor=white) ![OSINT](https://img.shields.io/badge/-OSINT-6A5ACD?logo=hackthebox&logoColor=white) |
+| **Scripting & Automation** | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-121011?logo=gnu-bash&logoColor=white) |
+| **Web Foundations** | ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black) ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?logo=jekyll&logoColor=white) |
 
 ---
 
+## 🌍 About Me
 
-Built with ❤️ using [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com).
+I’m a passionate **cybersecurity learner and practitioner** based in **Kenya 🇰🇪**.  
+Driven by curiosity, I enjoy analyzing packets, engineering detections, and defending systems against evolving threats.
+
+Currently improving my skills through:
+- 🎓 **SC-200 Microsoft Security Operations Analyst certification**
+- ⚙️ Advanced **detection engineering and automation** projects
+- 🧩 Continuous learning via **TryHackMe** and **Blue Team Labs Online**
+
+My goal is to **contribute to a global Security Operations Center (SOC)** or **threat detection team** that values innovation, visibility, and proactive defense.
+
+> “Security is not a product, but a process.” – *Bruce Schneier*
+---
+
+## 🤝 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brender-akinyi)  
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/abree24)  
+[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:brender.a8202@gmail.com)  
+[![Resume](https://img.shields.io/badge/-Download_Resume-4CAF50?logo=adobeacrobatreader&logoColor=white)](https://abree24.github.io/resume.pdf)
+
+---
+
+🛠️ *Built with ❤️ using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).*

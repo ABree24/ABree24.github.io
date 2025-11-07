@@ -76,7 +76,7 @@ locked the account and signed back-in.
 4. Confirmation: Confirmed the presence of Event IDs 4625 (failed) and 4624 (successful) in the SecurityEvent table.
 
 
-![Attack_Simulation](./assets/images/Attack_Simulation.png)
+![Attack_Simulation](/assets/images/Attack_Simulation.png)
 
 ---
 

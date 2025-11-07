@@ -62,7 +62,7 @@ author:
   avatar : "/assets/images/Brender.jpg"
   avatar_shape: square  # or circle
 
-  bio    : " Brender is an IT professional who builds robust systems and passionately secures them against evolving cyber threats."
+  bio    : " Brender is into Exploring cybersecurity through threat detection, automation, and forensics. Always learning, experimenting, and documenting the process."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

@@ -1,10 +1,8 @@
 ---
-permalink: /lab-challenges/
 layout: single
+title: "🛡️ Lab Challenges"
+permalink: /lab-challenges/
 author_profile: true
----
-# 🛡️ **Lab Challenges**
-
 ---
 
 ## 🧩 **Challenge 1: OWASP on TRYHACKME**

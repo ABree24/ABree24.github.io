@@ -95,9 +95,3 @@ _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_
 
 ---
 
-
-<p align="center">
-  🛠️ Built with ❤️ using <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
-</p>
-
-

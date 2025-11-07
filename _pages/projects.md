@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "💻 Projects"
-subtitle: "Hands-on cybersecurity and forensics case studies demonstrating real-world detection and analysis."
 permalink: /projects/
 author_profile: true
 ---
@@ -181,6 +180,4 @@ Microsoft Sentinel · Azure Log Analytics · KQL · PowerShell · Windows Event 
 
 4. Automate response (disable account / isolate host).
 
----
-📄 Return to Portfolio: Back to Home Page →
 ---

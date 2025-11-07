@@ -31,6 +31,7 @@ The goal of this portfolio is to document my hands-on work in **detection engine
 ├── _config.yml           → Jekyll site configuration
 ├── assets/               → Images, icons, and media used across pages
 └── _layouts/             → Page templates and custom layout tweaks
+```
 ---
 🚀 Local Development
 To build and preview the site locally:

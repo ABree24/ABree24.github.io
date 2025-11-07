@@ -9,7 +9,7 @@ header:
   caption: "Welcome to my Portfolio"
 ---
 
-# Welcome!
+<center># Welcome!</center>
 
 <h1 align="center">
   Hi, I'm Brender <span class="wave">👋</span>

@@ -28,14 +28,29 @@ My focus is on **developing detection logic and automations** that identify and 
 
 ## 🚀 Featured Projects
 
-| 💼 Project | 🧩 Description | ⚙️ Tools |
-|-------------|----------------|-----------|
-| **🔍 SOC Home Lab** | Simulated a Security Operations Center using Azure Sentinel to detect and respond to attacks in a virtual network. | `Azure Sentinel`, `KQL`, `PowerShell` |
-| **🐍 Phishing Email Analysis Automation** | Automated malicious email analysis using Python and VirusTotal API to extract indicators of compromise. | `Python`, `VirusTotal API`, `Regex` |
-| **🧱 Web App Vulnerability Assessment** | Performed OWASP Top 10 web assessments and generated professional vulnerability reports. | `Burp Suite`, `OWASP ZAP`, `HTML` |
-| **📈 Log Analytics Dashboard** | Designed dashboards that visualize network anomalies and trigger alerts via KQL queries. | `Azure Monitor`, `Sentinel`, `KQL` |
+> Hands-on cybersecurity projects showcasing my ability to **detect, analyze, and respond** to real-world threats using enterprise-grade tools.
 
-👉 **[🔗 View All Projects](https://github.com/abree24?tab=repositories)**
+---
+
+### 🛡️ **Brute-Force Attack Detection Using Microsoft Sentinel**
+
+![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft_Sentinel-0078D7?logo=microsoftazure&logoColor=white)
+![KQL](https://img.shields.io/badge/-KQL-0078D7?logo=azuredevops&logoColor=white)
+![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?logo=powershell&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure_Cloud-0089D6?logo=microsoftazure&logoColor=white)
+
+**Objective:** Detect brute-force attacks by correlating multiple failed login attempts with a subsequent successful login event.
+
+**Highlights:**
+- Built a **custom KQL detection rule** in Microsoft Sentinel.
+- Simulated brute-force activity using PowerShell on an Azure-hosted Windows VM.
+- Automated **incident creation and alerting** using Logic Apps.
+- Validated detections and documented response recommendations.
+
+**Key Skills:** `SIEM Engineering` · `KQL Query Design` · `Incident Response` · `Azure Security` · `SOC Automation`
+
+📘 **[Read Full Case Study →](https://abree24.github.io/projects/#🛡️-case-study-brute-force-attack-detection-using-microsoft-sentinel)**
+
 
 ---
 

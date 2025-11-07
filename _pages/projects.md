@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 ---
 
-
+---
 # 🛡️ Case Study: Brute-Force Attack Detection Using Microsoft Sentinel
 
 ## 📘 1. Executive Summary

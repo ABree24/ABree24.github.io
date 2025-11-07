@@ -15,8 +15,6 @@ header:
 
 🎯 **Detection Engineer & SIEM Analyst**  
 
-🛡️ **SOC Operations | Security Automation | Threat Detection**
-
 ---
 
 I specialize in **building, securing, and continuously monitoring cloud and hybrid environments**.  
@@ -86,7 +84,7 @@ My goal is to **contribute to a global Security Operations Center (SOC)** or **t
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brender-akinyi)  
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/abree24)  
 [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:brender.a8202@gmail.com)  
-[![Resume](https://img.shields.io/badge/-Download_Resume-4CAF50?logo=adobeacrobatreader&logoColor=white)](https://abree24.github.io/resume.pdf)
+
 
 ---
 

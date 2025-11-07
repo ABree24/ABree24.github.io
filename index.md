@@ -11,7 +11,7 @@ header:
 
 # Welcome!
 
-# 👋 Hi, I’m **Brender Akinyi**
+# Hi, I’m **Brender Akinyi**
 
 🎯 **Detection Engineer & SIEM Analyst**  
 
@@ -86,6 +86,3 @@ My goal is to **contribute to a global Security Operations Center (SOC)** or **t
 [![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)](mailto:brender.a8202@gmail.com)  
 
 
----
-
-🛠️ *Built with ❤️ using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).*

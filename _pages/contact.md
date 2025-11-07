@@ -1,10 +1,8 @@
 ---
-permalink: /contact/
 layout: single
+title: "📬 Contact Me"
+permalink: /contact/
 author_profile: true
----
-# 📬 **Contact Me**
-
 ---
 
 Feel free to reach out for collaboration, discussions, or opportunities!

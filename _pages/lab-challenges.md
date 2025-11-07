@@ -9,7 +9,6 @@ author_profile: true
 - **Problem**: Web Application Security Risks.
 - **Approach**: Exploit Vulnerabilities.
 - **Tools Used**: Crackstation, Cowsay Online, Exploit-DB.
-- **Link**: 
 - **Screenshot**:  
   ![DVWA Screenshot](/assets/images/owasp.webp)
 - **Lessons Learned**:
@@ -34,7 +33,6 @@ author_profile: true
 - **Problem**: Exploit a vulnerable Domain Controller.
 - **Approach**: Using Kerbrute.
 - **Tools Used**: Kerbrute, Nmap, Hashcat on chrome.
-- **Link**: Link:https://tryhackme.com/r/room/owasptop102021.
 - **Screenshot**:  
   ![XSS Demo](/assets/images/kerbrute.webp)
 - **Lessons Learned**:

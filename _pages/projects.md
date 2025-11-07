@@ -1,6 +1,8 @@
 ---
-permalink: /projects/
 layout: single
+title: "💻 Projects"
+subtitle: "Hands-on cybersecurity and forensics case studies demonstrating real-world detection and analysis."
+permalink: /projects/
 author_profile: true
 ---
 

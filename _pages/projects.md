@@ -3,9 +3,7 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
-# 💻 **Projects**
 
----
 
 # 🛡️ Case Study: Brute-Force Attack Detection Using Microsoft Sentinel
 
@@ -159,9 +157,9 @@ This project reinforced the critical need for robust log analysis in threat dete
 
 ## 🏁 7. Outcome
 
-✅ Successfully detected simulated brute-force activity.
-✅ Automatically generated Sentinel incidents with context.
-✅ Showcased full SOC detection lifecycle: Detect → Analyze → Respond.
+1. ✅ Successfully detected simulated brute-force activity.
+2. ✅ Automatically generated Sentinel incidents with context.
+3. ✅ Showcased full SOC detection lifecycle: Detect → Analyze → Respond.
 
 ---
 
@@ -173,13 +171,14 @@ Microsoft Sentinel · Azure Log Analytics · KQL · PowerShell · Windows Event 
 
 🚀 Future Improvements
 
-Add detection for Event 4672 (privilege escalation).
+1. Add detection for Event 4672 (privilege escalation).
 
-Create Sentinel Workbook for visual logon trends.
+2. Create Sentinel Workbook for visual logon trends.
 
-Integrate Sysmon data for deeper endpoint telemetry.
+3. Integrate Sysmon data for deeper endpoint telemetry.
 
-Automate response (disable account / isolate host).
+4. Automate response (disable account / isolate host).
 
 ---
-
+📄 Return to Portfolio: Back to Home Page →
+---

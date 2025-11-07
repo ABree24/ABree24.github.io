@@ -5,10 +5,6 @@ author_profile: true
 title: "Resume | Brender Akinyi – Cybersecurity Professional"
 ---
 
-# 📄 **Resume**
-
----
-
 ## 👩‍💻 **Professional Summary**
 
 I’m an early-career cybersecurity professional specializing in **security operations, incident detection, and digital forensics**.  

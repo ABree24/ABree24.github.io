@@ -37,7 +37,7 @@ header:
 
 <p align="center">
   I specialize in <strong>building, securing, and continuously monitoring cloud and hybrid environments</strong>.
-  Exploring how logs tell stories from compromise to containment.
+ <br> Exploring how logs tell stories from compromise to containment.
 </p>
 
 

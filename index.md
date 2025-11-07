@@ -86,13 +86,13 @@ header:
 
 ---
 
-## 🌍 About Me
+## 🧠 About Me
 
 I’m a passionate **cybersecurity learner and practitioner** based in **Kenya 🇰🇪**.  
 Driven by curiosity, I enjoy analyzing packets, engineering detections, and defending systems against evolving threats.
 
 Currently improving my skills through:
-- 🎓 **SC-200 Microsoft Security Operations Analyst certification**
+- 🎓 **Certifications**
 - ⚙️ Advanced **detection engineering and automation** projects
 - 🧩 Continuous learning via **TryHackMe** and **Blue Team Labs Online**
 

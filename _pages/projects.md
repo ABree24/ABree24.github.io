@@ -114,7 +114,7 @@ Failed
 | project Account = User, FailedCount, LastFailed, SuccessTime, Computer, IpAddress
 | order by SuccessTime desc
 ```
-
+![Attack_Simulation](/assets/images/Sentinel-Incident.png)
 ---
 
 ### **Phase 4 - Validation & Automation**

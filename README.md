@@ -49,7 +49,7 @@ gem install jekyll bundler
 bundle exec jekyll serve
 
 # 5. Open your browser
-http://localhost:4000
+
 ---
 🧠 Key Features
 Responsive design using the Minimal Mistakes theme

@@ -35,14 +35,14 @@ header:
 </style>
 
 <p align="center">
-  I specialize in <strong>building, securing, and continuously monitoring cloud and hybrid environments</strong>.
- <br> Exploring how logs tell stories from compromise to containment.
+  I specialize in <strong>building, securing and continuously monitoring cloud and hybrid environments</strong>.
+ <br> <strong>Exploring how logs tell stories from compromise to containment.</strong>
 </p>
 
 
 ---
 
-💻 This portfolio highlights my **projects, hands-on labs, and continuous learning journey** in cybersecurity and detection engineering.
+💻 This portfolio highlights my **projects, hands-on labs and continuous learning journey** in cybersecurity and detection engineering.
 
 ---
 

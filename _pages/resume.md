@@ -5,24 +5,24 @@ author_profile: true
 title: "Resume | Brender Akinyi – Cybersecurity Professional"
 ---
 
-## 👩‍💻 **Professional Summary**
+##  **Professional Summary**
 
 I’m an early-career cybersecurity professional specializing in **security operations, incident detection, and digital forensics**.  
 I’m passionate about using tools like Microsoft Sentinel, Wireshark, and Autopsy to detect, analyze, and investigate real-world threats.
 
 ---
 
-## 🎓 **Academic Background**
+##  **Academic Background**
 
-🎓 **Bachelor of Science in Information Technology**  
+ **Bachelor of Science in Information Technology**  
 _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_  
 📅 2021 – 2023  
 
 ---
 
-## 💼 **Professional Experience**
+##  **Professional Experience**
 
-### 💻 **Junior Developer & IT Support (Contractor) — Minasefate Foundation**  
+###  **IT Support Contractor — Minasefate Foundation**  
 📅 Jan 2025 – Oct 2025  
 - Configured and secured **internal systems**, reducing unauthorized access incidents by **30%**.  
 - Supported **deployment and maintenance** of organizational web servers, ensuring optimal uptime.  
@@ -31,13 +31,13 @@ _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_
 - Enhanced **system performance** and reduced network downtime through proactive troubleshooting and monitoring.
 
   
-### 🧰 **IT Intern — Transworld Radio Kenya**  
+###  **IT Intern — Transworld Radio Kenya**  
 📅 Oct 2023 – Dec 2023  
 - Resolved **software, hardware, and network issues**, improving IT support turnaround time by 30%.  
 - Assisted in **upgrading LAN infrastructure** and optimizing device configurations for faster throughput.  
 - Collaborated with IT and media teams to ensure smooth daily operations and technical reliability.
 
-### 🛍️ **Sales Associate — Trendy Clothing Boutique**  
+###  **Sales Associate — Trendy Clothing Boutique**  
 📅 Jan 2024 – Dec 2024  
 - Developed **teamwork, communication, and customer service** skills in a fast-paced retail environment.  
 - Managed **POS systems**, processed transactions, and handled end-of-day reporting with accuracy.  
@@ -45,18 +45,18 @@ _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_
 
 ---
 
-## 🏆 **Certifications**
+##  **Certifications**
 
 | Certification | Issuer | Year |
 |----------------|---------|------|
 | **Microsoft Security, Compliance & Identity Fundamentals (SC-900)** | Microsoft | 2025 |
-| **Security Operations Analyst Associate** | Microsoft | 2025 |
+| **Security Operations Analyst Associate (SC-200)** | Microsoft | 2025 |
 | **Cybershujaa Security Operations Analyst** | Cybershujaa | 2025 |
 | **IBM Cybersecurity Fundamentals** | IBM SkillsBuild | 2024 |
 
 ---
 
-## 🧠 **Technical Skills**
+##  **Technical Skills**
 
 | Category | Tools / Technologies |
 |-----------|----------------------|
@@ -69,7 +69,7 @@ _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_
 
 ---
 
-## 🎯 **Key Projects**
+##  **Key Projects**
 
 | Project | Description | Tools |
 |----------|--------------|-------|
@@ -78,11 +78,10 @@ _Jomo Kenyatta University of Agriculture and Technology (JKUAT)_
 
 ---
 
-## 🌍 **Professional Interests**
+##  **Professional Interests**
 - Threat Detection & Response  
-- Security Automation & SIEM Engineering  
+- Application and Data Security   
 - Cloud Security & Compliance
-- Forensics 
 - Continuous Learning through Platforms like TryHackMe & Blue Team Labs  
 
 ---

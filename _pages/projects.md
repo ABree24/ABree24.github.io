@@ -1,21 +1,21 @@
 ---
 layout: single
-title: "💻 Projects"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
 
 ---
-# 🛡️ Case Study: Brute-Force Attack Detection Using Microsoft Sentinel
+#  Case Study: Brute-Force Attack Detection Using Microsoft Sentinel
 
-## 📘 1. Executive Summary
+##  1. Executive Summary
 This case study details the engineering and deployment of a custom Microsoft Sentinel analytic rule to detect successful logins following multiple failed attempts—a pattern indicative of brute-force or credential-stuffing attacks.
 
 The objective was to simulate brute-force activity on a Windows VM, ingest Security Event Logs into Sentinel, build a resilient Kusto Query Language (KQL) rule, and automatically generate incidents. The project successfully demonstrated a full detect, analyze, and respond lifecycle aligned with real-world SOC operations.
 
 ---
 
-## 🎯 2. Project Goal and Scope
+##  2. Project Goal and Scope
 
 **Goal:**  
 Detect and alert on accounts that experience multiple failed login attempts (Event ID 4625) followed by a successful login (Event ID 4624) within a short timeframe.
@@ -30,7 +30,7 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 
 ---
 
-## ⚙️ 3. Tools and Environment Used
+##  3. Tools and Environment Used
 
 | Category | Tool / Service | Purpose |
 |-----------|----------------|----------|
@@ -43,7 +43,7 @@ Detect and alert on accounts that experience multiple failed login attempts (Eve
 
 ---
 
-## 🔧 4. Process and Technical Implementation
+##  4. Process and Technical Implementation
 
 ### **Phase 1 — Data Collection and Setup**
 1. Deployed a Windows 10 VM in Azure.  
@@ -130,7 +130,7 @@ Failed
 
 ---
 
-## 🧩 5. Defensive Recommendations
+##  5. Defensive Recommendations
 
 1. Account Lockout Policy: Lock after 5 failed attempts.
 
@@ -142,7 +142,7 @@ Failed
 
 ---
 
-## 🧠 6. Key Learnings
+##  6. Key Learnings
 
 This project reinforced the critical need for robust log analysis in threat detection. Specifically, I:
 
@@ -156,7 +156,7 @@ This project reinforced the critical need for robust log analysis in threat dete
 
 ---
 
-## 🏁 7. Outcome
+##  7. Outcome
 
 1. ✅ Successfully detected simulated brute-force activity.
 2. ✅ Automatically generated Sentinel incidents with context.
@@ -164,13 +164,13 @@ This project reinforced the critical need for robust log analysis in threat dete
 
 ---
 
-🧰 Tools & Technologies
+ **Tools & Technologies**
 
 Microsoft Sentinel · Azure Log Analytics · KQL · PowerShell · Windows Event Viewer · Logic Apps · Azure Monitor Agent
 
 ---
 
-🚀 Future Improvements
+ **Future Improvements**
 
 1. Add detection for Event 4672 (privilege escalation).
 

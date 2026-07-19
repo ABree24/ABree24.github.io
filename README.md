@@ -4,7 +4,7 @@
 
 This repository contains the source code and structure for my **cybersecurity portfolio website**, built using **Jekyll** and hosted on **GitHub Pages**.
 
-The goal of this portfolio is to document my hands-on work in **detection engineering, SIEM operations, and digital forensics**, while also experimenting with automation and cloud-based SOC tools.
+The goal of this portfolio is to document my hands-on work in **detection engineering, security operations and data protection **, while also experimenting with automation and cloud-based SOC tools.
 
 ---
 
@@ -63,7 +63,7 @@ Clean directory structure and consistent visual layout
 Integrated assets folder for screenshots and lab visuals
 ---
 🧪 Current Focus
-Adding new cybersecurity case studies (SOC detections, forensics investigations).
+Adding new cybersecurity case studies (SOC detections, data prtection and application security).
 
 Improving visual presentation of images and dashboards.
 

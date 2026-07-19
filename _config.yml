@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Brender Akinyi
 email: akinyi.brender@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
- This portfolio showcases my journey in IT through two key areas; web development and cybersecurity. 
- Explore my development projects that demonstrate my skills in building functional, user-friendly websites and dive into my cybersecurity writeups where I document my learning path, hands-on challenges, and insights into digital defense. 
- It’s a blend of building and breaking—highlighting both creativity and critical thinking.
+description: >- # this means to ignore newlines until "baseurl:" 
+Portfolio of Brender Akinyi, an early-career cybersecurity professional based in Nairobi, Kenya, specializing
+in security operations, threat detection and application security. Explore hands-on SIEM detection projects,
+lab write-ups and a learning path spanning incident response, secure coding and data protection.
 twitter_username: akinyi_brender
 github_username: ABree24
 minimal_mistakes_skin: neon
@@ -62,7 +62,8 @@ author:
   avatar : "/assets/images/Brender.jpg"
   avatar_shape: square  # or circle
 
-  bio    : " Brender is into Exploring cybersecurity through threat detection, automation, and forensics. Always learning, experimenting, and documenting the process."
+  bio    : " Brender is a cybersecurity professional exploring threat detection, application security, and automation.
+Always learning, building, and documenting the process."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

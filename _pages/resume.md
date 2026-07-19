@@ -7,9 +7,11 @@ title: "Resume | Brender Akinyi – Cybersecurity Professional"
 
 ##  **Professional Summary**
 
-I’m an early-career cybersecurity professional specializing in **security operations, incident detection, and digital forensics**.  
-I’m passionate about using tools like Microsoft Sentinel, Wireshark, and Autopsy to detect, analyze, and investigate real-world threats.
-
+Early-career cybersecurity professional with hands-on experience in security operations and threat detection,
+including building SIEM detection rules in Microsoft Sentinel and investigating simulated attacks end-to-end
+and a growing focus on application security, including OWASP Top 10 principles and secure coding practices.
+Certified in Microsoft SC-900 and Security Operations Analyst Associate. Comfortable across the security
+lifecycle, from log analysis to secure development fundamentals. Based in Nairobi, Kenya (UTC+3)
 ---
 
 ##  **Academic Background**

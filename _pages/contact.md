@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "📬 Contact Me"
+title: "Contact Me"
 permalink: /contact/
 author_profile: true
 ---

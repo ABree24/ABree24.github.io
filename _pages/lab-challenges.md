@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "🛡️ Lab Challenges"
+title: "Lab Challenges"
 permalink: /lab-challenges/
 author_profile: true
 ---

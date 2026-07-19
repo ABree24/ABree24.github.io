@@ -42,17 +42,17 @@ header:
 
 ---
 
-💻 This portfolio highlights my **projects, hands-on labs and continuous learning journey** in cybersecurity and detection engineering.
+This portfolio highlights my **projects, hands-on labs and continuous learning journey** in cybersecurity and detection engineering.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 > Hands-on cybersecurity projects showcasing my ability to **detect, analyze, and respond** to real-world threats using enterprise-grade tools.
 
 ---
 
-### 🛡️ **Brute-Force Attack Detection Using Microsoft Sentinel**
+### **Brute-Force Attack Detection Using Microsoft Sentinel**
 
 ![Microsoft Sentinel](https://img.shields.io/badge/-Microsoft_Sentinel-0078D7?logo=microsoftazure&logoColor=white)
 ![KQL](https://img.shields.io/badge/-KQL-0078D7?logo=azuredevops&logoColor=white)
@@ -74,9 +74,9 @@ header:
 
 ---
 
-## 🧠 Skills Snapshot
+## Skills Snapshot
 
-| 🛠️ Category | 🚀 Tools & Competencies |
+|  Category | Tools & Competencies |
 |--------------|--------------------------|
 | **Detection & SIEM** | ![Azure Sentinel](https://img.shields.io/badge/-Azure_Sentinel-0078D7?logo=microsoftazure&logoColor=white) ![KQL](https://img.shields.io/badge/-KQL-0078D7?logo=azuredevops&logoColor=white) ![Azure Security Center](https://img.shields.io/badge/-Azure_Security_Center-0078D7?logo=microsoftazure&logoColor=white) |
 | **Network & Analysis** | ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/-Nmap-005571?logo=gnometerminal&logoColor=white) ![TCP/IP](https://img.shields.io/badge/-TCP/IP-333333?logo=linux&logoColor=white) |
@@ -86,17 +86,19 @@ header:
 
 ---
 
-## 🧠 About Me
+## About Me
 
-I’m a passionate **cybersecurity learner and practitioner** based in **Kenya 🇰🇪**.  
+I’m a passionate **cybersecurity professional** based in **Kenya 🇰🇪 (EAT / UTC+3)**.  
 Driven by curiosity, I enjoy analyzing packets, engineering detections, and defending systems against evolving threats.
 
 Currently improving my skills through:
-- 🎓 **Certifications**
-- ⚙️ Advanced **detection engineering and automation** projects
-- 🧩 Continuous learning via **TryHackMe** and **Blue Team Labs Online**
+- 🎓 **Certifications** — Microsoft SC-900, Security Operations Analyst Associate, IBM Cybersecurity Fundamentals
+- ⚙️ **Detection engineering and SOC automation** projects
+- 🔐 **Application and Data security** — Building on OWASP Top 10, secure code review, DAST/SAST tooling
+- 🧩 Continuous learning via **TryHackMe** and **Hack The Box Labs Online**
 
-My goal is to **contribute to a global Security Operations Center (SOC)** or **threat detection team** that values innovation, visibility, and proactive defense.
+My goal is to contribute to a **security team — SOC, AppSec or data protection** — that values proactive
+defense, clear communication and building security into systems from the ground up, not bolting it on after.
 
 > “Security is not a product, but a process.” – *Bruce Schneier*
 ---
